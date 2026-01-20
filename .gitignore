@@ -13,7 +13,6 @@
 *.out
 
 # Tên file chạy dự kiến của bạn (thường trùng tên thư mục hoặc module)
-task-tui
 GopherCron
 main
 debug
