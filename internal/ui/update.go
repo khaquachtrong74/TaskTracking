@@ -58,7 +58,7 @@ func (l *ListModel) handleCaseInputMode(msg tea.Msg)(tea.Model, tea.Cmd){
 
 
 func (l *ListModel) handleQuit()(tea.Model, tea.Cmd){
-		err := data.SaveTasksToJson(l.tasks, "tasks.json")
+		err := data.SaveTasksToJson("tasks.json")
 		if err != nil {
 			fmt.Println("Lỗi lưu file: ", err)
 		}
