@@ -1,0 +1,38 @@
+# --- Binaries & Build Output ---
+# Các file thực thi sinh ra khi build
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Tên file chạy dự kiến của bạn (thường trùng tên thư mục hoặc module)
+task-tui
+GopherCron
+main
+debug
+
+# --- Data & Logs (QUAN TRỌNG) ---
+# Không bao giờ đẩy database thật lên git
+*.db
+*.db-journal
+*.db-wal
+*.sqlite
+
+# File JSON chứa dữ liệu runtime (dựa trên code SaveTasksToJson của bạn)
+tasks.json
+
+# --- Editor & OS Files ---
+# Vim/Neovim (vì bạn dùng Linux/NixOS)
+*.swp
+*.swo
+*~
+
+# VS Code / JetBrains (nếu có dùng)
+.vscode/
+.idea/
+
+# MacOS (nếu code chung team với ai dùng Mac)
+.DS_Store
